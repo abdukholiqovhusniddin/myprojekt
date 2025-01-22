@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Lato-Black';
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url(../font/Lato-Black.ttf);
+}
+
+.LeaveReview{
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeaveReview .modal-LeaveReview{
+    width: 486px;
+    height: 868px;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 5%),
+    0px 12px 10px -6px rgba(30, 33, 44, 8%),
+    0px 26px 24px -10px rgba(30, 33, 44, 10%),
+    0px 60px 80px -20px rgba(30, 33, 44, 16%);
+}
+
+#cross{
+    color: #787A80;
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-left: 89%;
+    padding-top: 24px;
+}
+
+.LeaveReview .modal-LeaveReview h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #1E212C;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.LeaveReview .modal-LeaveReview form{
+    width: 390px;
+    height: 622px;
+    margin: auto;
+    border: 1px solid red;
+}
